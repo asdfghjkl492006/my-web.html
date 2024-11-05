@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container { 
+    margin: 0 7rem;
+    background-color: #0162be;
+    min-height: 100vh; /* لضمان ملء الشاشة */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#home {
+    height: 100vh; /* تصحيح الخاصية */
+    background-color: #0162be;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+nav .logo {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto; /* لمحاذاة القائمة إلى أقصى اليمين */
+}
+
+nav ul a {
+    color: #fff;
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.contact-text {
+    margin-right: 20px; /* للمسافة بين النص والصورة */
+}
+
+.contact-text h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.contact-text p {
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    width: 60%;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+    margin-top: 20px; /* إضافة المسافة 20 بكسل */
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.social {
+    display: flex; /* استخدام Flexbox */
+    flex-direction: column; /* ترتيب الأيقونات عمودياً */
+    margin: 3rem;
+}
+
+.social a {
+    margin: 10px 0; /* إضافة مسافة بين الأيقونات */
+}
+
+.social i {
+    color: #fff;
+    font-size: 25px;
+}
+.pepsi-types {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
